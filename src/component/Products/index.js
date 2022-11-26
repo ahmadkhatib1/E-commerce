@@ -1,0 +1,7 @@
+export { default as CardProductsContainer } from './CardProductsContainer'
+export { default as LeftButton } from './LeftButton'
+export { default as ProductCard } from './ProductCard'
+export { default as ProductDetails } from './ProductDetails'
+export { default as ProductGallery } from './ProductGallery'
+export { default as ProductsText } from './ProductsText'
+export { default as RightButton } from './RightButton'

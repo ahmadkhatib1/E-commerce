@@ -1,0 +1,6 @@
+export { default as NavbarLogin } from './NavbarLogin'
+export { default as Footer } from './Footer'
+export { default as PaginationCompontent } from './PaginationCompontent'
+export { default as SearchCountResult } from './SearchCountResult'
+export { default as SideFilter } from './SideFilter'
+export { default as SubTitle } from './SubTitle' 
