@@ -656,3 +656,8 @@ body {
   text-align: center;
 }
 /* end filter */
+#upload-photo {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+}

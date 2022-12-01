@@ -1,7 +1,7 @@
 import React from "react";
 import { Col } from "react-bootstrap";
 
-const CategoryCard = ({ img ,background}) => {
+const CategoryCard = ({ title, img, background }) => {
   return (
     <Col
       xs="6"
@@ -13,8 +13,8 @@ const CategoryCard = ({ img ,background}) => {
         <div
           className="categoty-card "
           style={{ backgroundColor: `${background}` }}></div>{" "}
-        <img alt="zcv" src={img} className="categoty-card-img" />
-        <p className="categoty-card-text my-2">تخفيضات</p>
+        <img alt="Imag" src={img} className="categoty-card-img" />
+        <p className="categoty-card-text my-2">{title}</p>
       </div>
     </Col>
   );
